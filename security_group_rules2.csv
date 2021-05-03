@@ -1,0 +1,170 @@
+name,source,sourcevalue,port,protocol,description
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,103.21.244.0/22,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,103.22.200.0/22,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,103.31.4.0/22,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,104.16.0.0/12,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,108.162.192.0/18,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,131.0.72.0/22,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,141.101.64.0/18,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,162.158.0.0/15,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,172.64.0.0/13,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,173.245.48.0/20,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,188.114.96.0/20,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,190.93.240.0/20,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,197.234.240.0/22,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,198.41.128.0/17,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2400:cb00::/32,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2405:8100::/32,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2405:b500::/32,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2606:4700::/32,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2803:f800::/32,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2a06:98c0::/29,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2c0f:f248::/32,80,tcp,Cloudflare HTTP whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,103.21.244.0/22,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,103.22.200.0/22,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,103.31.4.0/22,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,104.16.0.0/12,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,108.162.192.0/18,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,131.0.72.0/22,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,141.101.64.0/18,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,162.158.0.0/15,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,172.64.0.0/13,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,173.245.48.0/20,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,188.114.96.0/20,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,190.93.240.0/20,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,197.234.240.0/22,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ip,198.41.128.0/17,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2400:cb00::/32,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2405:8100::/32,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2405:b500::/32,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2606:4700::/32,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,24433:f4430::/32,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2a06:98c0::/29,443,tcp,Cloudflare HTTPS whitelist
+sgr-eas-prd-cloudflare-whitelist,cidr_ipv6,2c0f:f248::/32,443,tcp,Cloudflare HTTPS whitelist
+
+
+sgr-eas-prd-fileserver,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-fileserver,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-editor,32806,tcp,Allow TCP 32806 from Editor server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-edm,32806,tcp,Allow TCP 32806 from EDM server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-login,32806,tcp,Allow TCP 32806 from Login server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-viewer,32806,tcp,Allow TCP 32806 from Viewer server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-import,32806,tcp,Allow TCP 32806 from Import server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-viewer-cache,32806,tcp,Allow TCP 32806 from Viewer Cache server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-editor,111,tcp,Allow TCP 111 from Editor server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-edm,111,tcp,Allow TCP 111 from EDM server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-login,111,tcp,Allow TCP 111 from Login server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-viewer,111,tcp,Allow TCP 111 from Viewer server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-import,111,tcp,Allow TCP 111 from Import server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-viewer-cache,111,tcp,Allow TCP from Viewer Cache server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-editor,111,udp,Allow UDP 111 from Editor server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-edm,111,udp,Allow UDP 111 from EDM server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-login,111,udp,Allow UDP 111 from Login server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-viewer,111,udp,Allow UDP 111 from Viewer server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-import,111,udp,Allow UDP 111 from Import server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-viewer-cache,111,udp,Allow UDP 111 from Viewer Cache server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-editor,2049,tcp,Allow TCP 2049 from Editor server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-edm,2049,tcp,Allow TCP 2049 from EDM server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-login,2049,tcp,Allow TCP 2049 from Login server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-viewer,2049,tcp,Allow TCP 2049 from Viewer server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-import,2049,tcp,Allow TCP 2049 from Import server
+sgr-eas-prd-fileserver,group_name,sgr-eas-prd-viewer-cache,2049,tcp,Allow TCP 2049 from Viewer Cache server
+
+
+sgr-eas-prd-rules,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-rules,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-rules,group_name,sgr-eas-prd-api,3002,tcp,Allow TCP 3002 from API server
+sgr-eas-prd-rules,group_name,sgr-eas-prd-viewer,3002,tcp,Allow TCP 3002 from Viewer server
+
+
+sgr-eas-prd-import,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-import,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-import,group_name,sgr-eas-prd-edm,80,tcp,Allow HTTP from API server
+sgr-eas-prd-import,group_name,sgr-eas-prd-proxy,80,tcp,Allow HTTP from Proxy server
+sgr-eas-prd-import,group_name,sgr-eas-prd-edm,443,tcp,Allow HTTPS from API server
+sgr-eas-prd-import,group_name,sgr-eas-prd-proxy,443,tcp,Allow HTTPS from Proxy server
+
+
+sgr-eas-prd-pdf,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-pdf,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-pdf,group_name,sgr-eas-prd-api,3000,tcp,Allow TCP 3002 from API server
+
+
+sgr-eas-prd-api,cidr_ip10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-api,cidr_ip10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-api,group_name,sgr-eas-prd-import,8080,tcp,Allow TCP 8080 from Import, server
+sgr-eas-prd-api,group_name,sgr-eas-prd-proxy,8081,tcp,Allow TCP 8081 from Proxy server
+sgr-eas-prd-api,group_name,sgr-eas-prd-viewer,8085,tcp,Allow TCP 8085 from Viewer server
+sgr-eas-prd-api,group_name,sgr-eas-prd-proxy,8085,tcp,Allow TCP 8085 from Proxy server
+sgr-eas-prd-api,group_name,sgr-eas-prd-viewer-cache,8085,tcp,Allow TCP 8085 from Viewer Cache server
+
+
+sgr-eas-prd-edm,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-edm,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-edm,group_name,sgr-eas-prd-api,80,tcp,Allow HTTP from API server
+sgr-eas-prd-edm,group_name,sgr-eas-prd-proxy,80,tcp,Allow HTTP from Proxy server
+sgr-eas-prd-edm,group_name,sgr-eas-prd-import,80,tcp,Allow HTTP from Import server
+sgr-eas-prd-edm,group_name,sgr-eas-prd-api,8080,tcp,Allow TCP 8080 from Viewer server
+sgr-eas-prd-edm,group_name,sgr-eas-prd-proxy,8080,tcp,Allow TCP 8080 from API server
+sgr-eas-prd-edm,group_name,sgr-eas-prd-import,443,tcp,Allow HTTPS from Viewer server
+sgr-eas-prd-edm,group_name,sgr-eas-prd-import,443,tcp,Allow HTTPS from Import server
+sgr-eas-prd-edm,group_name,sgr-eas-prd-api,7687,tcp,Allow TCP 7687 (neo4j) from API server
+sgr-eas-prd-edm,group_name,sgr-eas-prd-login,7687,tcp,Allow TCP 7687 (neo4j) from Login server
+sgr-eas-prd-edm,group_name,sgr-eas-prd-import,7687,tcp,Allow TCP 7687 (neo4j) from Import server
+sgr-eas-prd-edm,group_name,sgr-eas-prd-viewer,7687,tcp,Allow TCP 7687 (neo4j) from Viewer server
+
+
+sgr-eas-prd-login,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-login,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-login,group_name,sgr-eas-prd-api,8080,tcp,Allow TCP 8080 from API server
+sgr-eas-prd-login,group_name,sgr-eas-prd-viewer,8080,tcp,Allow TCP 8080 from Viewer server
+sgr-eas-prd-login,group_name,sgr-eas-prd-editor,8080,tcp,Allow TCP 8080 from Editor server
+sgr-eas-prd-login,group_name,sgr-eas-prd-edm,8080,tcp,Allow TCP 8080 from EDM server
+sgr-eas-prd-login,group_name,sgr-eas-prd-import,8080,tcp,Allow TCP 8080 from Import server
+sgr-eas-prd-login,group_name,sgr-eas-prd-proxy,8080,tcp,Allow TCP 8080 from Proxy server
+
+
+sgr-eas-prd-kafka,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-kafka,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-kafka,group_name,sgr-eas-prd-api,9092,tcp,Allow TCP 9092 from API server
+sgr-eas-prd-kafka,group_name,sgr-eas-prd-viewer,9092,tcp,Allow TCP 9092 from Viewer server
+sgr-eas-prd-kafka,group_name,sgr-eas-prd-login,9092,tcp,Allow TCP 9092 from Login server
+sgr-eas-prd-kafka,group_name,sgr-eas-prd-edm,9092,tcp,Allow TCP 9092 from EDM server 
+
+
+sgr-eas-prd-elk,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-elk,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-elk,cidr_ip,10.26.90.229/32,80,tcp,Allow HTTP from VPN
+sgr-eas-prd-elk,cidr_ip,10.26.90.229/32,5044,tcp,Allow TCP 5044 from VPN
+sgr-eas-prd-elk,cidr_ip,10.26.90.229/32,5601,tcp,Allow TCP 5601 from VPN
+
+
+sgr-eas-prd-viewer,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-viewer,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-viewer,group_name,sgr-eas-prd-api,9085,tcp,Allow PPT Mgr access from API server
+sgr-eas-prd-viewer,group_name,sgr-eas-prd-proxy,80,tcp,Allow HTTP from Proxy server
+sgr-eas-prd-viewer,group_name,sgr-eas-prd-proxy,443,tcp,Allow HTTPS from Proxy server
+
+
+sgr-eas-prd-proxy,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-proxy,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+
+
+sgr-eas-prd-viewer-cache,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-viewer-cache,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-viewer-cache,group_name,sgr-eas-prd-viewer,8080,tcp,Allow TCP 8080 from Viewer server
+sgr-eas-prd-viewer-cache,group_name,10.26.88.169/32,8085,tcp,Allow TCP 8085 from Viewer server
+
+
+sgr-eas-prd-editor,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-editor,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-editor,group_name,sgr-eas-prd-edm,9092,tcp,Allow TCP 9092 from EDM server
+sgr-eas-prd-editor,group_name,sgr-eas-prd-login,9092,tcp,Allow TCP 9092 from Login server
+sgr-eas-prd-editor,group_name,sgr-eas-prd-api,9092,tcp,Allow TCP 9092 from API server
+sgr-eas-prd-editor,group_name,sgr-eas-prd-viewer,9092,tcp,Allow TCP 9092 from Viewer server
+
+
+sgr-eas-prd-nosql,cidr_ip,10.26.90.229/32,22,tcp,Allow SSH from VPN
+sgr-eas-prd-nosql,cidr_ip,10.26.88.169/32,20,tcp,Allow SSH from Ansible
+sgr-eas-prd-nosql,group_name,sgr-eas-prd-api,27017,tcp,Allow TCP 27017 from API server
+sgr-eas-prd-nosql,group_name,sgr-eas-prd-kafka,27017,tcp,Allow TCP 27017 from Kafka server

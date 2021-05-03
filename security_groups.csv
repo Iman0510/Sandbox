@@ -1,0 +1,16 @@
+name,description,region,vpcid
+sgr-eas-prd-elk,Elk,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-editor,Editor,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-fileserver,File,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-rules,Rules,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-import,Import,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-pdf,PDF,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-api,API,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-edm,EDM,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-login,Login,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-kafka,Kafka,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-viewer,Viewer,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-nosql,NoSQL,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-proxy,Proxy,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-cloudflare-whitelist,Cloudflare whitelist,us-east-1,vpc-0dbbefdd9fe5383f0
+sgr-eas-prd-viewer-cache,Viewer Cache,us-east-1,vpc-0dbbefdd9fe5383f0
